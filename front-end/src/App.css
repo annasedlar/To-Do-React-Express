@@ -1,10 +1,17 @@
+body{
+  background-color: lightblue;
+  font-family: helvetica;
+}
+
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 80px;
+  transition: all 1s;
 }
 
 .App-header {
